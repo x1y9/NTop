@@ -1,6 +1,6 @@
 @echo off
 
-call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\vcvars32.bat"
+call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 
 IF NOT EXIST build mkdir build
 pushd build
